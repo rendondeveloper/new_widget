@@ -1,0 +1,18 @@
+name: new_widget
+description: A new brick created with the Mason CLI.
+
+version: 0.1.0+1
+environment:
+  mason: ">=0.1.0-dev.53 <0.1.0"
+vars:    
+  name_widget:
+    type: string
+    description: Name of the widget
+    default: Example - Widget Custom or widget custom
+    prompt: Whats is the name your widget?
+
+  description:
+      type: string
+      description: Explain all functionality for this widget 
+      default: Full Description  
+      prompt: What do your widget?
